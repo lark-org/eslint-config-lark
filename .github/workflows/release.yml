@@ -16,9 +16,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
@@ -38,7 +35,10 @@ jobs:
 
       - name: 安装依赖
         run: yarn install --frozen-lockfile
-
+      - name: Setup Git User
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
       - name: 执行 Lint
         run: yarn lint
       - name: 发布 Packages
