@@ -1,0 +1,69 @@
+{
+  "name": "eslint-config-lark",
+  "version": "0.0.1",
+  "description": "ESLint configuration for projects",
+  "license": "",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "airbnb-base",
+    "react",
+    "react-hooks",
+    "prettier",
+    "typescript",
+    "jest",
+    "testing-library",
+    "emotion",
+    "import",
+    "promise",
+    "async-await"
+  ],
+  "author": "me@virgo.one",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "eslint tests/*",
+    "release": "standard-version",
+    "lint": "yarn lint:code && yarn lint:format",
+    "lint:code": "eslint --fix index.js",
+    "lint:format": "prettier -w . -u --loglevel silent",
+    "preversion": "yarn lint",
+    "postversion": "git push --follow-tags --no-verify && npm publish",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "index.js": "eslint --fix",
+    "**/*": "prettier -w -u"
+  },
+  "dependencies": {
+    "@emotion/eslint-plugin": "^11.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-compat": "^3.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-jest-dom": "^3.9.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4",
+    "eslint-plugin-testing-library": "^4.10.1",
+    "read-pkg-up": "^7.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "standard-version": "^9.3.1",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "eslint": "^7.2.0",
+    "typescript": "^4.3.5"
+  }
+}
