@@ -31,7 +31,7 @@
     "lint:code": "eslint --fix index.js",
     "lint:format": "prettier -w . -u --loglevel silent",
     "preversion": "yarn lint",
-    "postversion": "git push --follow-tags --no-verify && npm publish",
+    "postrelease": "git push --follow-tags --no-verify && npm publish",
     "prepare": "husky install"
   },
   "lint-staged": {
