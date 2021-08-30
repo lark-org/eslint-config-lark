@@ -52,7 +52,7 @@ module.exports = {
     'plugin:compat/recommended',
     'plugin:jest/recommended',
     'plugin:jest/style',
-    hasReact && './react',
+    hasReact && './rules/react',
     hasJestDom && 'plugin:jest-dom/recommended',
     hasTestingLibrary && 'plugin:testing-library/react',
     hasPrettier && 'prettier'
