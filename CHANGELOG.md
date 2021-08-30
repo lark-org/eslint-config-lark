@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.5 (2021-08-30)
+
+### Bug Fixes
+
+- 验证 npm token ([8d632ff](https://github.com/lark-org/eslint-config-lark/commit/8d632ffd514ce9700186bb96ea6a28b37c8a7efb))
+
 ### 0.0.4 (2021-08-30)
 
 ### Bug Fixes
