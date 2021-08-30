@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.6 (2021-08-30)
+
+### Bug Fixes
+
+- add registry config ([630686d](https://github.com/lark-org/eslint-config-lark/commit/630686d19c68528f0699905869659d0a81de07a2))
+
 ### 0.0.5 (2021-08-30)
 
 ### Bug Fixes
