@@ -18,6 +18,9 @@
     "promise",
     "async-await"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "author": "me@virgo.one",
   "main": "index.js",
   "files": [
