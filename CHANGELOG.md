@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.4 (2021-08-30)
+
+### Bug Fixes
+
+- 修改 workflow ([c312e00](https://github.com/lark-org/eslint-config-lark/commit/c312e00c3b0540e905de43b5063a5728cc013abf))
+
 ### 0.0.3 (2021-08-30)
 
 ### Features
