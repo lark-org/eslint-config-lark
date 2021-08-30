@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.3 (2021-08-30)
+
+### Features
+
+- 增加 rule 测试 CI 运行是否正常 ([72cdd09](https://github.com/lark-org/eslint-config-lark/commit/72cdd099b874d091bc0eb7f7df2347d5b096d908))
+
 ### 0.0.2 (2021-08-30)
 
 ### Bug Fixes
