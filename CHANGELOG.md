@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/lark-org/eslint-config-lark/compare/v0.0.6...v0.0.7) (2021-08-31)
+
+### Features
+
+- 修改 action workflow ([9ee1a1f](https://github.com/lark-org/eslint-config-lark/commit/9ee1a1f7d1455ae1e10498049139dce2c4f5e011))
+
 ### 0.0.6 (2021-08-30)
 
 ### Bug Fixes
