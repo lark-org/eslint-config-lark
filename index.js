@@ -2,6 +2,7 @@
 const readPkgUp = require('read-pkg-up')
 
 let hasPrettier = false
+let hasJest = false
 let hasJestDom = false
 let hasTestingLibrary = false
 let hasEmotion = false
@@ -17,6 +18,7 @@ try {
   hasReact = allDeps.includes('react') || allDeps.includes('react-dom')
 
   hasPrettier = allDeps.includes('prettier')
+  hasJest = allDeps.includes('jest')
   hasJestDom = allDeps.includes('@testing-library/jest-dom')
   hasTestingLibrary =
     allDeps.includes('@testing-library/react') ||
@@ -39,7 +41,7 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
     'promise',
-    'jest',
+    hasJest && 'jest',
     hasReact && 'react-hooks',
     hasJestDom && 'jest-dom',
     hasTestingLibrary && 'testing-library',
