@@ -1,3 +1,9 @@
+## [0.1.1](https://github.com/lark-org/eslint-config-lark/compare/v0.1.0...v0.1.1) (2021-09-01)
+
+### Bug Fixes
+
+- cover jest ([333de97](https://github.com/lark-org/eslint-config-lark/commit/333de972aeb81fc6758d6045aac67763a2b7d033))
+
 # [0.1.0](https://github.com/lark-org/eslint-config-lark/compare/v0.0.10...v0.1.0) (2021-09-01)
 
 ### Features
