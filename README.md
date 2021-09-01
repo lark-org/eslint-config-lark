@@ -1,10 +1,10 @@
 # <em><b>ESLINT-CONFIG-LARK</b></em>
 
-ESlint configuration for my personal [React](https://reactjs.org) projects, which integrates [TypeScript](https://www.typescriptlang.org) and [many awesome features](#whats-inside).
+主要 fork 自 [eslint-config-welly](https://www.npmjs.com/package/eslint-config-welly)，做了一些改动，适应普通、react、node 项目
 
 ## Installation
 
-This package is distributed via [npm](https://www.npmjs.com/package/eslint-config-welly). It requires [eslint](https://github.com/eslint/eslint) and [typescript](https://github.com/microsoft/TypeScript).
+requires [eslint](https://github.com/eslint/eslint) and [typescript](https://github.com/microsoft/TypeScript).
 
 Install the correct version of each package, which are listed by the command:
 
