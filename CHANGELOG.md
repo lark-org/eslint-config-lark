@@ -1,3 +1,9 @@
+# [0.1.0](https://github.com/lark-org/eslint-config-lark/compare/v0.0.10...v0.1.0) (2021-09-01)
+
+### Features
+
+- auto enable jest ([fb9706c](https://github.com/lark-org/eslint-config-lark/commit/fb9706c4669ee3b0d30c39c9249b86a952e65595))
+
 ## [0.0.10](https://github.com/lark-org/eslint-config-lark/compare/v0.0.9...v0.0.10) (2021-09-01)
 
 ### Bug Fixes
