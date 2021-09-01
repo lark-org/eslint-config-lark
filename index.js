@@ -52,8 +52,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:promise/recommended',
     'plugin:compat/recommended',
-    'plugin:jest/recommended',
-    'plugin:jest/style',
+    hasJest && 'plugin:jest/recommended',
+    hasJest && 'plugin:jest/style',
     hasReact && './rules/react',
     hasJestDom && 'plugin:jest-dom/recommended',
     hasTestingLibrary && 'plugin:testing-library/react',
@@ -68,7 +68,7 @@ module.exports = {
     browser: true,
     node: true,
     es6: true,
-    'jest/globals': true
+    ...(hasJest && { 'jest/globals': true })
   },
   rules: {
     'no-use-before-define': 'off',
