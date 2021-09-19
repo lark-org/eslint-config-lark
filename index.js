@@ -45,7 +45,8 @@ module.exports = {
     hasReact && 'react-hooks',
     hasJestDom && 'jest-dom',
     hasTestingLibrary && 'testing-library',
-    hasEmotion && '@emotion'
+    hasEmotion && '@emotion',
+    hasPrettier && 'prettier'
   ].filter(Boolean),
   extends: [
     'airbnb-base',
@@ -100,6 +101,17 @@ module.exports = {
     ...(hasEmotion
       ? {
           '@emotion/pkg-renaming': 'error'
+        }
+      : null),
+    ...(hasPrettier
+      ? {
+          'prettier/prettier': [
+            'error',
+            {
+              singleQuote: true,
+              semi: false
+            }
+          ]
         }
       : null)
   }
