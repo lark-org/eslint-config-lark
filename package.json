@@ -42,8 +42,8 @@
   },
   "dependencies": {
     "@emotion/eslint-plugin": "^11.2.0",
-    "@typescript-eslint/eslint-plugin": "^4.29.1",
-    "@typescript-eslint/parser": "^4.29.1",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^2.4.0",
@@ -56,11 +56,11 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4",
     "eslint-plugin-testing-library": "^5.0.0",
-    "read-pkg-up": "^7.0.1"
+    "read-pkg-up": "7.0.1"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^3.3.0",
-    "eslint": "^7.2.0",
+    "eslint": "^8.1.0",
     "husky": "^7.0.1",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
