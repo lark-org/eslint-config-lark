@@ -1,3 +1,9 @@
+## [0.1.5](https://github.com/lark-org/eslint-config-lark/compare/v0.1.4...v0.1.5) (2021-11-05)
+
+### Bug Fixes
+
+- eslint peer version ([deb2116](https://github.com/lark-org/eslint-config-lark/commit/deb21168029c1de8fb7a6ac97584c7ad6fdba7d3))
+
 ## [0.1.4](https://github.com/lark-org/eslint-config-lark/compare/v0.1.3...v0.1.4) (2021-11-05)
 
 ## [0.1.3](https://github.com/lark-org/eslint-config-lark/compare/v0.1.2...v0.1.3) (2021-09-19)
