@@ -1,3 +1,11 @@
+## [0.1.6](https://github.com/lark-org/eslint-config-lark/compare/v0.1.5...v0.1.6) (2021-12-03)
+
+### Bug Fixes
+
+- 修改 release 文档格式 ([eae1c5d](https://github.com/lark-org/eslint-config-lark/commit/eae1c5d95fb43e71f81f2535e97086b33b8e5365))
+- prettier 格式化错误 ([38fb919](https://github.com/lark-org/eslint-config-lark/commit/38fb9198782fbe69effa535e83d8c721cd575717))
+- prettierrc file ([efd2a67](https://github.com/lark-org/eslint-config-lark/commit/efd2a67801914f23fa618ab3659bce4e42dfd7b4))
+
 ## [0.1.5](https://github.com/lark-org/eslint-config-lark/compare/v0.1.4...v0.1.5) (2021-11-05)
 
 ### Bug Fixes
