@@ -32,7 +32,7 @@
     "release": "release-it",
     "lint": "yarn lint:code && yarn lint:format",
     "lint:code": "eslint --fix index.js",
-    "lint:format": "prettier --write \"src/**/*.ts\"",
+    "lint:format": "prettier -w . -u --loglevel silent",
     "preversion": "yarn lint",
     "prepare": "husky install"
   },
