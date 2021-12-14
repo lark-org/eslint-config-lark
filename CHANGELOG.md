@@ -1,3 +1,9 @@
+## [0.1.7](https://github.com/lark-org/eslint-config-lark/compare/v0.1.6...v0.1.7) (2021-12-14)
+
+### Bug Fixes
+
+- package sync ([#88](https://github.com/lark-org/eslint-config-lark/issues/88)) ([ca696a0](https://github.com/lark-org/eslint-config-lark/commit/ca696a08622ea75e514a6a16c82cc665d77683f6))
+
 ## [0.1.6](https://github.com/lark-org/eslint-config-lark/compare/v0.1.5...v0.1.6) (2021-12-03)
 
 ### Bug Fixes
