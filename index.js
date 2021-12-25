@@ -105,13 +105,7 @@ module.exports = {
       : null),
     ...(hasPrettier
       ? {
-          'prettier/prettier': [
-            'error',
-            {
-              singleQuote: true,
-              semi: false
-            }
-          ]
+          'prettier/prettier': ['error']
         }
       : null)
   }
