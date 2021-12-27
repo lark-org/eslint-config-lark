@@ -72,6 +72,7 @@ module.exports = {
     ...(hasJest && { 'jest/globals': true })
   },
   rules: {
+    'compat/compat': 'off',
     'no-use-before-define': 'off',
     'no-shadow': 'off',
     'import/extensions': 'off',
