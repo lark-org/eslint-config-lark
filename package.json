@@ -19,7 +19,12 @@
     "async-await"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lark-org/eslint-config-lark.git"
   },
   "author": "me@virgo.one",
   "main": "index.js",
