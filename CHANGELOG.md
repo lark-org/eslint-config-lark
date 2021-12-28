@@ -1,3 +1,16 @@
+# [0.3.0](https://github.com/lark-org/eslint-config-lark/compare/v0.2.0...v0.3.0) (2021-12-28)
+
+
+### Bug Fixes
+
+* 🐛 移除CI试运行 ([4a04538](https://github.com/lark-org/eslint-config-lark/commit/4a045388ded7eceba9eb562190253b9ab2806c00))
+* CI 变更失败问题 ([9c51bf3](https://github.com/lark-org/eslint-config-lark/commit/9c51bf31c33164a845f544ac781711c90b414f4b))
+
+
+### Features
+
+* 🎸 react rule update ([a6b95ba](https://github.com/lark-org/eslint-config-lark/commit/a6b95ba161f74b029a079afda14d00cb0a6a02f3))
+
 ## [0.1.7](https://github.com/lark-org/eslint-config-lark/compare/v0.1.6...v0.1.7) (2021-12-14)
 
 ### Bug Fixes
