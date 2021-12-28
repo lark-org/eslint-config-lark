@@ -10,6 +10,8 @@ module.exports = {
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
   rules: {
+    'react/display-name': 0,
+
     '@typescript-eslint/explicit-function-return-type': 0,
     // Specify whether double or single quotes should be used in JSX attributes
     // https://eslint.org/docs/rules/jsx-quotes
