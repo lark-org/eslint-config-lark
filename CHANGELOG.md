@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/lark-org/eslint-config-lark/compare/v0.3.0...v0.4.0) (2022-02-21)
+
+
+### Features
+
+* 升级依赖发布新版本 ([e6a9b0c](https://github.com/lark-org/eslint-config-lark/commit/e6a9b0c6903a3d0a3e4292cfa2b059d8090255cf))
+
 # [0.3.0](https://github.com/lark-org/eslint-config-lark/compare/v0.2.0...v0.3.0) (2021-12-28)
 
 ### Bug Fixes
